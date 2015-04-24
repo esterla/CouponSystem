@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="de44005a3ad44bab843b26993603f58a" Name="Diagram1" ZoomLevel="80">
+        <EntityTypeShape EntityType="CS_DB1Model.Buisness" Width="1.5" PointX="5.25" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CS_DB1Model.CatalogCoupon" Width="1.5" PointX="7.5" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CS_DB1Model.CatalogCoupons_SocialNetworkCoupon" Width="1.5" PointX="9.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CS_DB1Model.Category" Width="1.5" PointX="3.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CS_DB1Model.Location" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CS_DB1Model.OrderedCoupon" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CS_DB1Model.User" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CS_DB1Model.Users_BuisnessOwner" Width="1.5" PointX="3" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CS_DB1Model.Users_Customer" Width="1.5" PointX="6" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CS_DB1Model.Users_SystemAdministrator" Width="1.5" PointX="3" PointY="16.75" IsExpanded="true" />
+        <AssociationConnector Association="CS_DB1Model.FK_BuisnessBuisnessOwner" ManuallyRouted="false" />
+        <AssociationConnector Association="CS_DB1Model.FK_BuisnessLocation" ManuallyRouted="false" />
+        <AssociationConnector Association="CS_DB1Model.FK_CatalogCouponBuisness" ManuallyRouted="false" />
+        <AssociationConnector Association="CS_DB1Model.FK_CategoryBuisness" ManuallyRouted="false" />
+        <AssociationConnector Association="CS_DB1Model.FK_CatalogCouponCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="CS_DB1Model.FK_CatalogCouponOrderedCoupon" ManuallyRouted="false" />
+        <AssociationConnector Association="CS_DB1Model.FK_CatalogCouponSystemAdministrator" ManuallyRouted="false" />
+        <AssociationConnector Association="CS_DB1Model.FK_LocationCatalogCoupon" ManuallyRouted="false" />
+        <AssociationConnector Association="CS_DB1Model.FK_SocialNetworkCoupon_inherits_CatalogCoupon" ManuallyRouted="false" />
+        <AssociationConnector Association="CS_DB1Model.FK_CustomerSocialNetworkCoupon" ManuallyRouted="false" />
+        <AssociationConnector Association="CS_DB1Model.FK_LocationCustomer" ManuallyRouted="false" />
+        <AssociationConnector Association="CS_DB1Model.FK_UserOrderedCoupon" ManuallyRouted="false" />
+        <AssociationConnector Association="CS_DB1Model.FK_BuisnessOwner_inherits_User" ManuallyRouted="false" />
+        <AssociationConnector Association="CS_DB1Model.FK_Customer_inherits_User" ManuallyRouted="false" />
+        <AssociationConnector Association="CS_DB1Model.FK_SystemAdministrator_inherits_User" ManuallyRouted="false" />
+        <AssociationConnector Association="CS_DB1Model.CategoryCustomer" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
